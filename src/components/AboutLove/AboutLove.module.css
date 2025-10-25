@@ -1,0 +1,75 @@
+.loveSection {
+  width: 100vw;
+  padding: 0;
+  margin-top: 0;
+  background: #FFFCF2;
+  font-family: 'Inter', sans-serif;
+}
+
+/* --- ABOUT GRID --- */
+.aboutGrid {
+  width: 100vw;
+  text-align: center;
+  padding: 2.15rem 0 1.45rem 0;
+  background: transparent;
+}
+
+.loveHeading {
+  color: #F94C97;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 2.1rem;
+  letter-spacing: 0.04em;
+}
+
+.gridWrap {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.gridImg {
+  width: 700px;
+  max-width: 97vw;
+  margin: 0 auto;
+  display: block;
+  border-radius: 13px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.09);
+}
+
+/* --- REELS SECTION --- */
+.reelsSection {
+  width: 100vw;
+  text-align: center;
+  padding: 2.15rem 0 2.0rem 0;
+  background: transparent;
+}
+
+.reelsHeading {
+  color: #F94C97;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 0.42rem;
+  letter-spacing: 0.04em;
+}
+
+.reelsDesc {
+  color: #353535;
+  font-size: 0.98rem;
+  margin-bottom: 2.1rem;
+}
+
+.reelsImg {
+  width: 700px;
+  max-width: 97vw;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 1.5px 10px rgba(24,24,24,0.07);
+}
+
+/* Mobile Responsive */
+@media (max-width: 800px) {
+  .loveHeading, .reelsHeading { font-size: 1.18rem; }
+  .gridImg, .reelsImg { width: 98vw; }
+}

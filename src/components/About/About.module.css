@@ -1,0 +1,187 @@
+.about {
+  width: 100vw;
+  background: #FFFCF2; /* match Figma color */
+  padding: 0;
+  margin-top: 0;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Top section: text and circular food image */
+.topBar {
+  display: flex;
+  gap: 1vw;
+  padding: 0 4vw 0 6vw;
+  margin-top: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.left {
+  flex: 1.1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3.1vw;
+}
+
+.heading {
+  font-size: 2.3rem;
+  color: #F94C97;
+  font-weight: 700;
+  line-height: 1.07;
+  margin-bottom: 1.3rem;
+  letter-spacing: 0.055em;
+}
+
+.desc {
+  color: #222;
+  font-size: 1.0rem;
+  max-width: 510px;
+  line-height: 1.52;
+  margin-bottom: 1.15rem;
+}
+
+.cta {
+  background: #F94C97;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.7rem 1.4rem;
+  text-decoration: none;
+  box-shadow: 0 2px 10px rgba(249,76,151,0.13);
+  letter-spacing: 0.03rem;
+  transition: background .22s, transform .17s;
+  border: none;
+  display: inline-block;
+}
+.cta:hover {
+  background: #bc2577;
+  transform: scale(1.04);
+}
+
+.right {
+  flex: 0.9;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 1vw;
+}
+
+.roundImgWrap {
+  position: relative;
+  width: 260px; height: 260px;
+  min-width: 220px; min-height: 220px;
+  border-radius: 50%;
+  overflow: visible;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roundImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 7px 22px rgba(36,154,108,0.16);
+}
+
+/* Play button centered */
+.playBtn {
+  position: absolute;
+  top: 54%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px; height: 48px;
+  background: #fff;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 2px 14px rgba(36,154,108,0.11);
+  cursor: pointer;
+  display: flex;
+  align-items: center; justify-content: center;
+  transition: background .18s;
+}
+.playBtn:hover {
+  background: #F94C97;
+  color: #fff;
+}
+.playIcon {
+  color: #F94C97;
+  font-size: 1.6rem;
+  margin-left: 2px;
+}
+
+/* Figma-style sticker at top-left */
+.sticker {
+  position: absolute;
+  top: -19px; left: -30px;
+  background: #07A7A7;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.97rem;
+  border-radius: 22px;
+  padding: 7px 27px;
+  box-shadow: 0px 3px 11px #08959b24;
+  z-index: 1;
+  letter-spacing: 0.06em;
+}
+/* Decorative star, Figma-style */
+.star {
+  position: absolute;
+  right: -22px; bottom: -23px;
+  width: 41px; height: 41px;
+  background: #FFD700;
+  clip-path: polygon(46% 0%, 54% 38%, 100% 38%, 61% 62%, 74% 100%, 46% 75%, 18% 100%, 31% 61%, 0% 38%, 45% 38%);
+  z-index: 1;
+  opacity: .8;
+}
+
+/* Offer section */
+.offerSection {
+  width: 100vw;
+  text-align: center;
+  padding: 2.8rem 0 1.15rem 0;
+  margin-top: 0;
+  background: transparent;
+  position: relative;
+}
+.offerHeading {
+  font-size: 2rem;
+  color: #F94C97;
+  font-weight: 700;
+  margin-bottom: 2.2rem;
+  letter-spacing: .05em;
+}
+.offerImg {
+  width: 720px;
+  max-width: 96vw;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Remove vertical gap between hero and this section */
+.about {
+  margin-top: 0;
+  padding-top: 0;
+}
+@media (max-width: 1000px) {
+  .topBar {
+    flex-direction: column;
+    padding: 0 3vw;
+    gap: 1.95rem;
+  }
+  .left { margin-top: 1vw; }
+  .right { margin-top: 0.7vw; }
+  .roundImgWrap { width: 180px; height: 180px; }
+}
+
+@media (max-width: 700px) {
+  .heading { font-size: 1.1rem; line-height: 1.13; margin-bottom: 0.9rem; }
+  .desc { font-size: 0.87rem; }
+  .cta { font-size: 0.89rem; padding: 9px 18px;}
+  .offerImg { width: 99vw;}
+  .topBar { padding: 2vw 1vw;}
+}

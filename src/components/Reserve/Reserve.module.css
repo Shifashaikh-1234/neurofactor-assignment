@@ -1,0 +1,162 @@
+.reserveSection {
+  width: 100vw;
+  padding: 0;
+  margin-top: 0;
+  background: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+/* --- RESERVE HERO --- */
+.reserveHero {
+  width: 100vw;
+  min-height: 370px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.heroOverlay {
+  width: 100vw;
+  min-height: 370px;
+  background: rgba(47, 47, 47, 0.01); /* subtle overlay */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.heroContent {
+  color: #fff;
+  max-width: 510px;
+  margin-left: 6vw;
+  margin-top: 2vw;
+  z-index: 2;
+}
+
+.heroHeading {
+  font-size: 2.45rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.1rem;
+  color: #fff;
+}
+
+.heroDesc {
+  font-size: 1.01rem;
+  margin-bottom: 1.35rem;
+}
+
+.cta {
+  background: #F94C97;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.7rem 1.43rem;
+  letter-spacing: 0.035em;
+  text-decoration: none;
+  box-shadow: 0 2px 12px rgba(249,76,151,0.11);
+  border: none;
+  display: inline-block;
+  transition: background .19s, transform .17s;
+}
+.cta:hover {
+  background: #bc2577;
+  transform: scale(1.04);
+}
+
+/* Play button - displayed mid right by Figma */
+.playBtn {
+  position: absolute;
+  left: 58%;
+  top: 43%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 2px 14px rgba(36,154,108,0.11);
+  cursor: pointer;
+  display: flex;
+  align-items: center; justify-content: center;
+  transition: background .17s;
+  z-index: 3;
+}
+.playBtn:hover {
+  background: #F94C97;
+}
+.playIcon {
+  color: #F94C97;
+  font-size: 1.32rem;
+  margin-left: 2px;
+}
+
+/* --- DISHES SECTION --- */
+.dishesSection {
+  width: 100vw;
+  background: #FFFCF2;
+  padding: 2.15rem 0 2.2rem 0;
+  text-align: center;
+  position: relative;
+  margin-top: 0;
+}
+.dishesHeading {
+  color: #F94C97;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+  letter-spacing: 0.05em;
+}
+.dishesDesc {
+  color: #353535;
+  font-size: 0.98rem;
+  margin-bottom: 2.1rem;
+}
+.dishesImg {
+  width: 750px;
+  max-width: 97vw;
+  margin: 0 auto 1.5rem auto;
+  display: block;
+}
+
+.menuBtn {
+  background: #F94C97;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.57rem 1.33rem;
+  letter-spacing: 0.035em;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  box-shadow: 0 2px 10px rgba(249,76,151,0.08);
+  margin-top: 0.4rem;
+  transition: background .19s, color .18s;
+}
+.menuBtn:hover {
+  background: #bc2577;
+}
+
+/* Decorative star */
+.decorStar {
+  position: absolute;
+  left: 12vw;
+  top: -28px;
+  width: 39px; height: 39px;
+  background: #FFD700;
+  clip-path: polygon(46% 0%, 54% 38%, 100% 38%, 61% 62%, 74% 100%, 46% 75%, 18% 100%, 31% 61%, 0% 38%, 45% 38%);
+  z-index: 1;
+  opacity: .8;
+}
+
+@media(max-width: 800px) {
+  .heroContent { margin-left: 3vw; }
+  .heroHeading { font-size: 1.15rem;}
+  .playBtn { left: 70%;}
+  .dishesImg { width: 99vw;}
+}

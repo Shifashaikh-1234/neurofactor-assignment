@@ -1,0 +1,67 @@
+.topbar {
+  width: 100vw;
+  background: #07A7A7; /* Adjust to match exact Figma color */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw 0 3vw;
+  min-height: 36px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 0; /* Ensures it touches the hero, no gap */
+}
+
+.infoArea {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.icon img {
+  width: 100%;
+  height: auto;
+  filter: brightness(100) invert(0); /* Makes icons white or Figma-style */
+}
+
+.text {
+  margin-right: 1.6rem;
+  letter-spacing: .025em;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.socialArea {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.socials {
+  height: 22px;
+  object-fit: contain;
+}
+
+@media (max-width: 650px) {
+  .topbar {
+    font-size: .89rem;
+    flex-direction: column;
+    padding: 2px 2vw;
+    min-height: 28px;
+  }
+  .infoArea {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .socialArea {
+    margin-top: 3px;
+  }
+}

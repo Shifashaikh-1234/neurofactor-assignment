@@ -1,0 +1,60 @@
+.socialGallery {
+  width: 100vw;
+  padding: 0;
+  margin-top: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* --- Socials Row --- */
+.socialRow {
+  width: 100vw;
+  background: #FFEAF6; /* Figma light pink */
+  text-align: center;
+  padding: 2.2rem 0 2.8rem 0;
+}
+
+.socialHeading {
+  color: #F94C97;
+  font-size: 2.0rem;
+  font-weight: 700;
+  margin-bottom: 2.1rem;
+  letter-spacing: 0.036em;
+}
+
+.socialsImg {
+  width: 530px;
+  max-width: 89vw;
+  margin: 0 auto;
+  display: block;
+}
+
+/* --- Gallery Row --- */
+.galleryRow {
+  width: 100vw;
+  background: #FFFCF2;
+  text-align: center;
+  padding: 2.6rem 0 2.3rem 0;
+  margin-top: 0;
+}
+
+.galleryHeading {
+  color: #F94C97;
+  font-size: 1.55rem;
+  font-weight: 700;
+  margin-bottom: 2.05rem;
+  letter-spacing: 0.033em;
+}
+.galleryImg {
+  width: 620px;
+  max-width: 96vw;
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .socialHeading, .galleryHeading { font-size: 1.13rem; }
+  .socialsImg, .galleryImg { width: 98vw; }
+}
