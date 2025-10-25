@@ -1,16 +1,100 @@
-# React + Vite
+# 🌿 ChutNee - React.js Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Project Overview
 
-Currently, two official plugins are available:
+This project was developed as part of the **Software Developer Internship Technical Task** for **Neurofactor Technologies Private Limited**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of this task was to **build, animate, and deploy** a fully functional, **mobile-responsive web application** that accurately translates the **ChutNee Figma Design** using **React.js**, with a strong focus on **performance optimization, clean code, and smooth CSS animations**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **React.js** (Vite for fast development and builds)
+- **HTML5 / CSS3**
+- **JavaScript (ES6+)**
+- **React Hooks**
+- **Responsive Design (Mobile-first)**
+- **CSS Animations (Transitions & Keyframes)**
+- **Deployed on Vercel**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎨 Design Implementation
+
+The application layout, color palette, typography, and component structure were built to closely **match the Figma design**.  
+All design details were followed precisely to maintain high fidelity with the original reference.
+
+---
+
+## ✨ Features & Highlights
+
+- 🔹 **Pixel-perfect implementation** of the Figma design  
+- 🔹 **Pure CSS animations** (hover effects, smooth load transitions, state-based motion)  
+- 🔹 **Highly optimized performance** — lightweight, fast-loading, and responsive  
+- 🔹 **Fully mobile-friendly layout** that adapts seamlessly to all screen sizes  
+- 🔹 **Clean and modular React component structure**  
+- 🔹 **Reusable UI components** for maintainability  
+
+---
+
+## 📱 Responsiveness
+
+The app is designed with a **mobile-first approach**, ensuring smooth usability across:
+- Smartphones (portrait & landscape)
+- Desktop and large screens
+
+Media queries and flexible units (`rem`, `%`, `vw/vh`, `fr`) are used throughout the layout for adaptive design.
+
+---
+
+## ⚙️ Performance & Animation
+
+- All animations implemented using **pure CSS transitions and keyframes** — **no external animation libraries** used.
+- CSS animations are GPU-accelerated and optimized to prevent layout shifts or jank.
+- Lazy loading and efficient React rendering patterns ensure a fast, responsive UX.
+
+---
+
+## 🖥️ Live Demo
+
+🔗 **Live Site:** [https://your-app-name.vercel.app](https://your-app-name.vercel.app)
+
+---
+
+## 💾 Source Code
+
+📦 **GitHub Repository:** 
+
+---
+
+##  Developer Notes
+
+- Implemented **semantic HTML** and accessible tags for better SEO and usability.
+- Used **React functional components** and hooks for state management.
+- Focused on **clean, modular, and maintainable code**.
+
+---
+
+##  Author
+
+**Name:** Shifa Tazeen Shaikh  
+**Role:** Software Developer Intern (Technical Task)  
+
+---
+
+##  Submission Details
+
+**Submitted To:** Neurofactor Technologies Pvt. Ltd.  
+**Submission Type:** Software Developer Internship - Technical Task  
+**Deadline:** Within 24 hours of task receipt  
+**Deliverables:**
+- ✅ React.js Source Code (GitHub)
+- ✅ Deployed Web App (Vercel)
+
+---
+
+### 🏁 Thank You!
+
+Thank you for reviewing my submission. I look forward to feedback and the opportunity to contribute to **Neurofactor Technologies**.
+
