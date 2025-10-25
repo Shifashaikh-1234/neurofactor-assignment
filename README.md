@@ -1,6 +1,6 @@
-# 🌿 ChutNee - React.js Web Application
+#  ChutNee - React.js Web Application
 
-## 📋 Project Overview
+## Project Overview
 
 This project was developed as part of the **Software Developer Internship Technical Task** for **Neurofactor Technologies Private Limited**.
 
@@ -8,7 +8,7 @@ The goal of this task was to **build, animate, and deploy** a fully functional, 
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **React.js** (Vite for fast development and builds)
 - **HTML5 / CSS3**
@@ -20,14 +20,14 @@ The goal of this task was to **build, animate, and deploy** a fully functional, 
 
 ---
 
-## 🎨 Design Implementation
+##  Design Implementation
 
-The application layout, color palette, typography, and component structure were built to closely **match the Figma design**.  
+The application layout, color palette, typography, and component structure were built to closely 
 All design details were followed precisely to maintain high fidelity with the original reference.
 
 ---
 
-## ✨ Features & Highlights
+## Features & Highlights
 
 - 🔹 **Pixel-perfect implementation** of the Figma design  
 - 🔹 **Pure CSS animations** (hover effects, smooth load transitions, state-based motion)  
@@ -38,7 +38,7 @@ All design details were followed precisely to maintain high fidelity with the or
 
 ---
 
-## 📱 Responsiveness
+##  Responsiveness
 
 The app is designed with a **mobile-first approach**, ensuring smooth usability across:
 - Smartphones (portrait & landscape)
@@ -48,7 +48,7 @@ Media queries and flexible units (`rem`, `%`, `vw/vh`, `fr`) are used throughout
 
 ---
 
-## ⚙️ Performance & Animation
+## Performance & Animation
 
 - All animations implemented using **pure CSS transitions and keyframes** — **no external animation libraries** used.
 - CSS animations are GPU-accelerated and optimized to prevent layout shifts or jank.
@@ -56,17 +56,17 @@ Media queries and flexible units (`rem`, `%`, `vw/vh`, `fr`) are used throughout
 
 ---
 
-## 🖥️ Live Demo
+##  Live Demo
 
-🔗 **Live Site:** [https://your-app-name.vercel.app](https://your-app-name.vercel.app)
+🔗 **Live Site:** https://neurofactor-assignment.vercel.app/
 
----
 
-## 💾 Source Code
 
-📦 **GitHub Repository:** 
+##  Source Code
 
----
+ **GitHub Repository:** 
+
+
 
 ##  Developer Notes
 
